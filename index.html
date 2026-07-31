@@ -808,7 +808,7 @@ function startSlideshowForTab(tabId) {
     currentIndex = (currentIndex + 1) % slides.length;
     slides[currentIndex].classList.add('active');
     if (currentElem) currentElem.textContent = currentIndex + 1;
-  }, 5000);
+  }, 8000);
 
   slideshowState[tabId] = { intervalId, currentIndex };
 }
